@@ -3,48 +3,2274 @@
       "id": 1,
       "picture_url": "https://randomuser.me/api/portraits/men/1.jpg",
       "name": "John Smith",
+      "bio": "John Smith is a self-taught chef who has been cooking professionally for over a decade. He specializes in fusion cuisine, drawing inspiration from his travels around the world. John is passionate about using locally-sourced ingredients and experimenting with unique flavor combinations to create unforgettable dishes.",
       "experience_years": 10,
       "recipe_count": 50,
-      "likes": 20000
+      "likes": 20000,
+      "recipies": [
+        {
+          "id": 1,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 3,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        }
+      ]
     },
     {
       "id": 2,
       "picture_url": "https://randomuser.me/api/portraits/women/2.jpg",
       "name": "Jane Doe",
+      "bio": "Jane Doe is a classically-trained chef with a background in French cuisine. She honed her skills working in Michelin-starred restaurants before branching out on her own. Jane is known for her elegant and refined dishes, which often incorporate seasonal ingredients.",
       "experience_years": 5,
       "recipe_count": 25,
-      "likes": 10000
+      "likes": 10000,
+      "recipies": [
+        {
+          "id": 1,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 3,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        }
+      ]
     },
     {
       "id": 3,
       "picture_url": "https://randomuser.me/api/portraits/men/3.jpg",
       "name": "Bob Johnson",
+      "bio": "Bob Johnson is a BBQ pitmaster who has been smoking meats for over 15 years. He learned the art of BBQ from his grandfather and has since developed his own signature style. Bob is passionate about sharing his love of BBQ with others and enjoys teaching classes and hosting backyard cookouts.",
       "experience_years": 15,
       "recipe_count": 75,
-      "likes": 5000
+      "likes": 5000,
+      "recipies": [
+        {
+          "id": 1,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 3,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        }
+      ]
     },
     {
       "id": 4,
       "picture_url": "https://randomuser.me/api/portraits/women/4.jpg",
       "name": "Maria Rodriguez",
+      "bio": "Maria Rodriguez is a self-taught chef who has been cooking professionally for over a decade. She specializes in fusion cuisine, drawing inspiration from her travels around the world. Maria is passionate about using locally-sourced ingredients and experimenting with unique flavor combinations to create unforgettable dishes.",
       "experience_years": 8,
       "recipe_count": 30,
-      "likes": 15000
+      "likes": 15000,
+       "recipies": [
+        {
+          "id": 1,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 3,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        }
+      ]
     },
     {
       "id": 5,
       "picture_url": "https://randomuser.me/api/portraits/men/5.jpg",
       "name": "David Lee",
+      "bio": "David Lee is a classically-trained chef with a background in French cuisine. He honed his skills working in Michelin-starred restaurants before branching out on his own. David is known for his elegant and refined dishes, which often incorporate seasonal ingredients.",
       "experience_years": 12,
       "recipe_count": 65,
-      "likes": 18000
+      "likes": 18000,
+       "recipies": [
+        {
+          "id": 1,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 3,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        }
+      ]
     },
     {
       "id": 6,
       "picture_url": "https://randomuser.me/api/portraits/women/6.jpg",
       "name": "Samantha Johnson",
+      "bio": "Samantha Johnson is a BBQ pitmaster who has been smoking meats for over 15 years. She learned the art of BBQ from her grandfather and has since developed her own signature style. Samantha is passionate about sharing her love of BBQ with others and enjoys teaching classes and hosting backyard cookouts.",
       "experience_years": 6,
       "recipe_count": 20,
-      "likes": 8000
+      "likes": 8000,
+       "recipies": [
+        {
+          "id": 1,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 3,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        },
+        {
+          "id": 2,
+          "name": "Chicken Tikka Masala",
+          "description": "Chicken tikka masala is a dish consisting of roasted marinated chicken chunks (chicken tikka) in spiced curry sauce. The curry is usually creamy and orange-coloured. There are multiple claims to its place of origin, including the Punjab region of the Indian subcontinent or Glasgow in Scotland.",
+          "picture_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+          "likes": 10000,
+          "ingredients": [
+            {
+              "name": "Chicken",
+              "quantity": "1 lb"
+            },
+            {
+              "name": "Yogurt",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Lemon Juice",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garlic",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Ginger",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Garam Masala",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cumin",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Coriander",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Cayenne Pepper",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Salt",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Butter",
+              "quantity": "1 tbsp"
+            },
+            {
+              "name": "Tomato Sauce",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Heavy Cream",
+              "quantity": "1 cup"
+            },
+            {
+              "name": "Cilantro",
+              "quantity": "1 tbsp"
+            }
+          ],
+          "steps": [
+            {
+              "description": "Cut chicken into bite-sized pieces."
+            },
+            {
+              "description": "Mix yogurt, lemon juice, garlic, ginger, garam masala, cumin, coriander, cayenne pepper, and salt in a large bowl."
+            },
+            {
+              "description": "Add chicken to bowl and mix until chicken is fully coated."
+            },
+            {
+              "description": "Cover bowl and refrigerate for at least 1 hour."
+            },
+            {
+              "description": "Melt butter in a large skillet over medium heat."
+            },
+            {
+              "description": "Add chicken and cook until chicken is no longer pink in the center."
+            },
+            {
+              "description": "Add tomato sauce and heavy cream to skillet and stir until sauce is thickened."
+            },
+            {
+              "description": "Garnish with cilantro and serve."
+            }
+          ],
+          "ratings": 500
+        }
+      ]
     }
   ]

@@ -15,6 +15,11 @@ app.get('/courses', (req, res) => {
 app.get('/chefs', (req, res) => {
     res.send(chefs)
 })
+app.get('/chefs/:id', (req, res) => {
+    const chef = chefs.find(c => c.id === parseInt(req.params.id))
+    if (!chef) res.status(404).send({})
+    res.send(chef)
+})
 app.get('/courses/:id', (req, res) => {
     const course = courses.find(c => c.id === parseInt(req.params.id))
     if (!course) res.status(404).send({})
